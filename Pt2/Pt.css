@@ -1,0 +1,103 @@
+body{
+ background: linear-gradient(to right,lightpink 6%, PaleVioletRed 100%); 
+}
+img{
+  width: 450px;
+  height: 320px; 
+}
+{
+  color: white;
+font-size: 12pt;
+font-weight: bold; 
+text-align: center;
+text-align: left;
+text-align: right;
+font-family:"Lucida Console", "Courier New", monospace;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+background: linear-gradient(to right,MediumVioletRed  7%, Violet 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ 
+ font: {
+  size: 10vw;
+ };
+}
+h2 {
+  color: mistyrose;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15px;
+}
+h3 {
+  color: DarkMagenta;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+h4 {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15; 
+  font-size: large;
+}
+h6 {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15; 
+  font-size: large;
+}
+table, th, tr {
+margin-left: auto;
+margin-right: auto;
+font-family: "Lucida Console", "Courier New", monospace;
+padding: 15px;
+text-align: left;
+ background: linear-gradient(to right,lightpink 7%, PaleVioletRed 100%); 
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.container{
+  width: 200px;
+  position: relative;
+}
+.click{
+  background-color: #BA55D3;
+}
+.click:hover{
+  background-color: #DDA0DD;
+}
+.click,.links{
+  padding: 12px;
+  font-size:1.2em;
+  font-family: "Lucida Console", "Courier New", monospace;
+  border: none;
+  outline: none;
+  width: 200px;
+  color: white;
+  transition: 0.3s;
+}
+.list{
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+.newlist{
+  transform: scaleY(1);
+}
+.links{
+  background-color: #FFB6C1;
+}
+.links:hover{
+  background-color: #4B0082;
+  transform: scale(1.1);
+  
+}

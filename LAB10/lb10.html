@@ -1,0 +1,91 @@
+<DOCTYPE html> 
+  <html> 
+    <head> 
+       <link href="../main.css" rel="stylesheet" type="text/css".. />
+      <table border="6">
+<div class="topnav">
+ <ul> <a href="../LAB1/lab1.html"> lab 1 </a> 
+  <a href="../LAB2/lab2.html"> lab 2 </a> 
+  <a href="../LAB3/lab3.html"> lab 3 </a> 
+   <a href="../LAB4/lb4.html"> lab 4 </a> 
+  <a href="../LAB5/lb5.html"> lab 5 </a> 
+  <a href="../LAB6/lb6.html"> lab 6 </a> 
+  <a href="../LAB7/lb7.html"> lab 7 </a> 
+  <a href="../LAB8/lb8.html"> lab 8 </a>
+  <a href="../LAB9/lb9.html">lab 9 </a> 
+  <a href="../LAB10/lb10.html"> lab 10 </a>
+  <a href="../LAB11/lb11.html"> lab 11 </a> 
+  <a href="../LAB12/lb12.html">lab 12 </a>
+  <a href="../LAb13/lb13.html"> lab 13 </a> 
+  <a href="../LAB14/lb14.html"> lab 14 </a> 
+  <a href="../LAB15/lb15.html"> lab 15 </a> 
+  <a href="../LAB16/lb16.html"> lab 16 </a> 
+  <a href="../LAB17/lb17.html"> lab 17 </a>
+  <a href="../LAB18/lb18.html"> lab 18 </a> 
+  <a href="../LAB19/lb19.html"> lab 19 </a> 
+  <a href="../LAB20/lb20.html"> lab 20 </a> </ul> 
+  </div> 
+<title> Lab 10 </Title> 
+<style> 
+*{
+  box-sizing: border-box; 
+}
+/* A css selector selects the HTML element(s) you want to style. Simple selectors (select elements based on name, id, class) 
+*/
+body{
+  background-color: aqua;
+}
+/* the class selector selects the HTML elements with a specific  class attribute to select elements with a specific class, write a  period (.), character, followed by the class name */ 
+
+
+.header{ 
+  background-image: url("https://130168-1109147-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/04/webdesign.jpg");
+}
+/* The id selector uses the id attribute of an HTML element to select a speicific element. The id of an element is unique within a page, so the id selector is used to select one unique element ! To select an element wuth a speicifc id, write a hash(#) character, followed by the id of the element. Example The CSS rule below will be applied to the HTML element id="paral" : */ 
+demoBox{
+  text-align: center;
+  color:red; 
+}
+/*The grouping selector selects all the HTML elements with the sane style definitions. Look at the following CSS code (the h1, h2, and elements have the same defintions). It will be better to group the selectors, to minimize the code. To group selectors, seperate each selector with a coma */ 
+P, h1, h3 {
+  color:red; 
+}
+/* A combinator is something that expains the relationship between the selectors. A css selector can contain more than one simple selector, between the simple selectors, we can include a combinator. There a 4 different combinations in css. 
+descendant selector (space) 
+child selector (>) 
+adjacent sibloing selector (+) 
+general sibling selector (-)*/
+.header h3{color:green;}
+/* changes color on hover or mouse over*/
+/* A pseudo-class is used to define a special state of an element. For example, it can be used to:
+Style an element when a user mouses over it 
+Style visited and unvisited links differently 
+Style an elemenet when it gets focus*/
+.topnav a:hover{
+  background-color: #f1f1f1;
+  color: black; 
+}
+/* unvisited link */
+/* Css [attribute] selector is used to select elements with a specified attribute. The following example selects all <a> elements with a target attribute*/
+a{target} {
+  background-color: yellow; 
+}
+</style> 
+</head> 
+</body> 
+<div class="topnav">
+  </div> 
+<div class="header"> 
+<h1> TAEHS </h1> 
+<h2> WEB DESIGN</h2>
+<h3> Lab 10 Internal CSS </h3> 
+<h4> 2/07/22 </h4> 
+<h5> Zainab Majidi </h5> 
+</div> 
+<div id="demoBox">
+  <h1> First name </h1>
+   <h1 id= "1name"> Last name</h1> 
+  <h1> Today's date </h1> 
+  </div> 
+</body> 
+</html> 

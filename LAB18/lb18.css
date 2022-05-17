@@ -1,0 +1,20 @@
+#movingBox{
+  background-color:#E0FFFF;
+  border:Blue 3px;
+  width: 75px;
+  height: 75px;
+  position:relative;
+  left:200px;
+}
+button{
+  color:CornflowerBlue;
+  border:dashed;
+  background-color:DarkBlue;
+  position:relative;
+  left:100px;
+}
+button:hover{
+border: DarkSlateBlue;
+color: DeepSkyBlue;
+background-color: #B0C4DE; 
+}
